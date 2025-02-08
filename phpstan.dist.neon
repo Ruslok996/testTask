@@ -1,0 +1,14 @@
+parameters:
+    level: 6
+    paths:
+        - bin/
+        - config/
+        - public/
+        - src/
+        - tests/
+    treatPhpDocTypesAsCertain: false
+    ignoreErrors:
+        - '#Property App\\Entity\\User\\User::\$id .*#'
+        - '#Property App\\Entity\\Cash\\Transaction::\$id .*#'
+        - '#Property App\\Entity\\Account\\Account::\$id .*#'
+        - '#Property App\\Entity\\Cash\\CashRegister::\$id .*#'
